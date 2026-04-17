@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<link rel="stylesheet" href="style.css">
+
+<style>
+html{
+scroll-behavior:smooth;
+}
+</style>
+
+</head>
+
+<body>
+<div class="neon-bg">
+	<div id="glitter-bg"></div>
+</div>
+
+<div class="container">
+	<!-- Navbar -->
+	<nav>
+		<ul>
+			<li><a href="#home" class="nav-link active">Home</a></li>
+			<li><a href="#about" class="nav-link">About</a></li>
+			<li><a href="#projects" class="nav-link">Projects</a></li>
+			<li><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+	</nav>
+	<button id="theme-toggle" class="neon-btn small" title="Toggle theme">🌙</button>
+
+	<!-- HOME SECTION -->
+	<section class="hero" id="home">
+		<div class="hero-content">
+			<h1>
+				Hello, it's Me<br>
+				<span>Shreya Kumari</span><br>
+				And I'm a <span class="accent">BTECH CSE(AIML) Student</span>
+			</h1>
+			<a href="assets/Shreya_Kumari_Resume(1).pdf" class="neon-btn" download>
+				Download Resume
+			</a>
+		</div>
+		<div class="hex-profile">
+			<img src="assets/shreya.jpg" alt="Profile Picture">
+		</div>
+	</section>
+
+	<!-- ABOUT SECTION -->
+	<section class="about-section" id="about">
+		<div class="about-wrapper">
+			<div class="hex-profile large" style="flex-shrink:0;">
+				<img src="assets/shreya.jpg" alt="Profile Picture">
+			</div>
+			<div class="about-content">
+				<h2>About <span class="accent">Me</span></h2>
+				<p class="about-intro">
+					Hi, I’m Shreya Kumari – a B.Tech CSE student specializing in AI.
+					I love transforming ideas into projects through coding, data analysis, and problem-solving.
+				</p>
+				<div class="about-links">
+					<a href="https://github.com/Shreyasingh1709" class="about-link-btn" target="_blank">
+				<img src="assets/github_PNG22.png" class="about-link-icon social-icon-img"> GitHub
+			</a>
+			<a href="https://www.hackerrank.com/profile/shreyakumarisin1" class="about-link-btn" target="_blank">
+				<img src="assets/Hackerrank_icon.png" class="about-link-icon social-icon-img"> HackerRank
+			</a>
+			<a href="https://www.linkedin.com/in/shreya1709" class="about-link-btn" target="_blank">
+				<img src="assets/linkedIn_PNG8.png" class="about-link-icon social-icon-img"> LinkedIn
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- Academic Qualification Timeline Section -->
+<section class="qualification-section">
+	<h2>Academic Qualification</h2>
+	<div class="timeline">
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-content">
+				<h3>Alliance University <span class="timeline-date">Sept 2023 – July 2027</span></h3>
+				<p>Bachelor of Technology in Computer Science and Engineering - CGPA: 8.94</p>
+				<span class="timeline-location">Bangalore, India</span>
+			</div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-content">
+				<h3>B.L. Ang Indo Public School <span class="timeline-date">Aug 2021 – May 2023</span></h3>
+				<p>12th - Science - Percentage: 71.6%</p>
+				<span class="timeline-location">Bihar, India</span>
+			</div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-content">
+				<h3>GEMS English School <span class="timeline-date">Apr 2020 – July 2021</span></h3>
+				<p>10th - Percentage: 90.83%</p>
+				<span class="timeline-location">Bihar, India</span>
+			</div>
+		</div>
+	</div>
+	
+	<div style="text-align:left; margin-bottom: 26px; margin-left:150px;">
+		<a href="assets/ilovepdf_merged (1).pdf" target="_blank" class="neon-btn" style="display:inline-block; margin-top:25px;">View Qualification PDF</a>
+	</div>
+
+
+<section class="skills-section">
+	<h2>Skills & Tools</h2>
+	<ul class="skills-list">
+		<li><span>Python</span></li>
+		<li><span>C</span></li>
+		<li><span>Artificial Intelligence</span></li>
+		<li><span>Machine Learning</span></li>
+		<li><span>Data Structures and Algorithms</span></li>
+		<li><span>Data Analysis</span></li>
+		<li><span>SQL</span></li>
+	</ul>
+</section>
+<!-- PROJECTS SECTION -->
+
+<section class="portfolio-section" id="projects">
+
+<h2>Latest <span class="accent">Projects</span></h2>
+
+<div class="project-gallery">
+
+
+<div class="service-card project-card" data-github="https://github.com/Shreyasingh1709/Platform-independent-spam-detection-API">
+	<span class="project-title">Platform Independent Spam Detection API</span>
+	<a href="https://github.com/Shreyasingh1709/Platform-independent-spam-detection-API" target="_blank">
+		<img src="assets/github_PNG22.png" class="github-icon">
+	</a>
+	<div class="project-popup">
+		<h3>Platform Independent Spam Detection API</h3>
+		<p>Built a spam detection system using Naive Bayes and TF-IDF, integrated with API, dashboard, and database.</p>
+	</div>
+</div>
+
+
+<div class="service-card project-card" data-github="https://github.com/Shreyasingh1709/Resume-Analyzer-and-Job-Matcher">
+	<span class="project-title">Resume Analyzer & Job Matcher</span>
+	<a href="https://github.com/Shreyasingh1709/Resume-Analyzer-and-Job-Matcher" target="_blank">
+		<img src="assets/github_PNG22.png" class="github-icon">
+	</a>
+	<div class="project-popup">
+		<h3>Resume Analyzer & Job Matcher</h3>
+		<p>Developed resume analyzer and job matcher using LLMs, extracting skills, matching profiles, and providing improvement suggestions.</p>
+	</div>
+</div>
+
+
+
+<div class="service-card project-card" data-github="https://github.com/Shreyasingh1709/Ai-Data-Analysis-and-Reporting-Agent">
+	<span class="project-title">AI Data Analysis & Reporting Agent</span>
+	<a href="https://github.com/Shreyasingh1709/Ai-Data-Analysis-and-Reporting-Agent" target="_blank">
+		<img src="assets/github_PNG22.png" class="github-icon">
+	</a>
+	<div class="project-popup">
+		<h3>AI Data Analysis & Reporting Agent</h3>
+		<p>AI-powered system that automates data analysis and report generation from datasets.</p>
+	</div>
+</div>
+
+
+
+<div class="service-card project-card" data-github="https://github.com/Shreyasingh1709/Implementation-of-AI-ML-for-predictive-analysis">
+	<span class="project-title">Predictive Analysis Dashboard</span>
+	<a href="https://github.com/Shreyasingh1709/Implementation-of-AI-ML-for-predictive-analysis" target="_blank">
+		<img src="assets/github_PNG22.png" class="github-icon">
+	</a>
+	<div class="project-popup">
+		<h3>Predictive Analysis Dashboard</h3>
+		<p>Streamlit dashboard for performing regression and classification predictions.</p>
+	</div>
+</div>
+
+
+
+</div>
+
+<!-- CERTIFICATIONS SECTION -->
+<section class="certifications-section" id="certifications">
+	<h2>Certifications</h2>
+	<ul class="certification-list">
+		<li>
+			<span>Microsoft Azure AI Foundation – Microsoft</span>
+			<a href="assets/certificates/azure-ai-foundation.pdf" class="neon-btn small" target="_blank">View Certificate</a>
+		</li>
+		<li>
+			<span>Introduction to Database System – NPTEL</span>
+			<a href="assets/certificates/nptel-db.pdf" class="neon-btn small" target="_blank">View Certificate</a>
+		</li>
+		<li>
+			<span>Introduction to Machine Learning – NPTEL</span>
+			<a href="assets/certificates/nptel-ml.pdf" class="neon-btn small" target="_blank">View Certificate</a>
+		</li>
+		<li>
+			<span>AI Foundations Associate - Oracle</span>
+			<a href="assets/certificates/oracle-ai-foundation.pdf" class="neon-btn small" target="_blank">View Certificate</a>
+		</li>
+	</ul>
+</section>
+
+</section>
+<!-- INTERNSHIP SECTION -->
+<section class="internship-section" id="internships">
+	<h2>Internships <span style="font-size:1.1rem; color:#00ffe7;"></span></h2>
+	<ul class="internship-list">
+		<li>
+			<div class="internship-title">AI for Sustainability Virtual Internship</div>
+			<div class="internship-org">by 1M1B in collaboration with IBM SkillsBuild</div>
+			<div class="internship-desc">
+							Presented <b>EcoLoop</b>, our AI-driven smart waste management system enabling intelligent segregation, energy optimization, sustainability, and community-driven environmental impact through innovation.
+							<a href="assets/certificates/1m1b-ibm-ecoloop.pdf" class="neon-btn small" target="_blank" style="margin-left:18px;">View Certificate</a>
+			</div>
+		</li>
+		<li>
+			<div class="internship-title">Infosys Springboard Virtual Internship 6.0 (B4-5)</div>
+			<div class="internship-org">Development of AI-Powered Loan Eligibility Advisory System</div>
+			<div class="internship-desc">
+							An intelligent loan eligibility platform with AI chat, voice interaction, document verification, and PDF report generation.
+							<a href="assets/certificates/infosys-loan-ai.pdf" class="neon-btn small" target="_blank" style="margin-left:18px;">View Certificate</a>
+			</div>
+		</li>
+	</ul>
+</section>
+
+<section class="achievement-section">
+	<h2>Achievements</h2>
+	<ul class="achievement-list">
+		<li><span>Participant, Google India Girls Hackathon 2023 and 2024</span></li>
+		<li><span>Participant, Infosys Springboard iAccelerate Women's Hackathon 2025</span></li>
+		<li><span>Volunteer, Alliance One 3.0 CodeSangram</span></li>
+		<li><span>Contributed to the Magazine of Alliance One 3.0</span></li>
+	</ul>
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section class="contact-section" id="contact">
+
+<h2>Contact <span class="accent">Me</span></h2>
+
+<form action="https://formspree.io/f/xqedwbey" method="POST" class="contact-form">
+
+<input type="text" name="name" placeholder="Name" required>
+
+<input type="email" name="email" placeholder="Email" required>
+
+<input type="text" name="subject" placeholder="Subject" required>
+
+<textarea name="message" placeholder="Message" required></textarea>
+
+<button class="neon-btn" type="submit">Send Message</button>
+
+</form>
+
+<div class="call-section">
+<button class="neon-btn">Call Me</button>
+</div>
+
+</section>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
