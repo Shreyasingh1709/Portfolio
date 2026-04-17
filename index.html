@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -266,6 +265,24 @@ scroll-behavior:smooth;
 
 </section>
 
+<!-- QnA Assistant Toggle Button and Panel -->
+<link rel="stylesheet" href="qna-assistant.css">
+<div id="qna-assistant-toggle" title="Open QnA Assistant">
+  <span class="qna-icon">🤖</span>
+</div>
+<div id="qna-assistant-panel">
+  <div class="qna-assistant-header">
+    <span>AI Assistant</span>
+    <button id="qna-assistant-close" title="Close">&times;</button>
+  </div>
+  <div id="qna-chat-body" class="qna-assistant-chat-body"></div>
+  <div class="qna-assistant-input-row">
+    <input id="qna-chat-input" type="text" placeholder="Type your question..." autocomplete="off" />
+    <button id="qna-chat-send" title="Send">&#9658;</button>
+  </div>
+</div>
+<script src="qna-assistant.js"></script>
+<!-- End QnA Assistant -->
 
 </div>
 
