@@ -1,3 +1,11 @@
+/* Section Main Color for About, Latest, Contact */
+.section-main {
+    color: #fff;
+    transition: color 0.2s;
+}
+.theme-bright .section-main {
+    color: #181a23;
+}
 /* INTERNSHIP SECTION */
 .internship-section {
     margin: 48px 0;
